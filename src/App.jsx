@@ -167,13 +167,13 @@ function App() {
               {/* Character Layer - Front layer */}
               <img
                 className="character absolute bottom-0 left-1/2 -translate-x-1/2 scale-[2.5] rotate-[-20deg] max-h-[120%] object-contain"
-                style={{ zIndex: 5 }}
+                style={{ zIndex: 10 }}
                 src="./girlbg.png"
                 alt=""
               />
               
               {/* Text Layer - Above images */}
-              <div className="text text-white flex flex-col gap-3 absolute top-20 left-1/2 -translate-x-1/2 scale-[1.4] rotate-[-10deg]" style={{ zIndex: 10 }}>
+              <div className="text text-white flex flex-col gap-3 absolute top-20 left-1/2 -translate-x-1/2 scale-[1.4] rotate-[-10deg]" style={{ zIndex: 5 }}>
                 <h1 className="text-[12rem] leading-none -ml-40">grand</h1>
                 <h1 className="text-[12rem] leading-none ml-20">theft</h1>
                 <h1 className="text-[12rem] leading-none -ml-40">auto</h1>
