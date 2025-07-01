@@ -1,4 +1,7 @@
+
+
 {
+  "homepage": "https://Rahul3430.github.io/GTA6Website",
   "name": "gta6website",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +10,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
