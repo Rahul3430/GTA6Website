@@ -205,8 +205,8 @@ function App() {
                 />
               </div>
               <div className="rg w-1/2 pl-20 flex flex-col justify-center">
-                <h1 className="text-6xl xl:text-8xl leading-tight">Still Running,</h1>
-                <h1 className="text-6xl xl:text-8xl leading-tight">Not Hunting</h1>
+                <h1 className="text-6xl xl:text-6xl leading-tight">Still Running,</h1>
+                <h1 className="text-6xl xl:text-6xl leading-tight">Not Hunting</h1>
                 <p className="mt-10 text-lg xl:text-xl font-[Helvetica_Now_Display] leading-relaxed">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Distinctio possimus, asperiores nam, omnis inventore nesciunt
