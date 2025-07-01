@@ -167,7 +167,7 @@ function App() {
               {/* Character Layer - Front layer */}
               <img
                 className="character absolute bottom-0 left-1/2 -translate-x-1/2 scale-[2.5] rotate-[-20deg] max-h-[120%] object-contain"
-                style={{ zIndex: 4 }}
+                style={{ zIndex: 5 }}
                 src="./girlbg.png"
                 alt=""
               />
